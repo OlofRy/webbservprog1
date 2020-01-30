@@ -1,0 +1,255 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+}
+nav {
+    background: green;
+    margin: 0 auto;
+    width: 100vw;
+    height: 80px;
+    display: block;
+
+}
+
+ul {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    display: block;
+    margin: 30px 40px;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+}
+
+svg {
+    width: 40px;
+    fill: white;
+}
+
+span.login {
+    position: relative;
+    top: -10px
+}
+
+a.login {
+    right: 80px;
+    top: 20px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.forms form {
+    float: left;
+    width: 49.9%;
+}
+
+input, select {
+    display: block;
+    width: 168px;
+    height: 15px;
+    margin: 10px auto;
+    padding: 8px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+select {
+    height: auto;
+}
+
+option {
+    color: black;
+}
+
+input[type="submit"] {
+    width: auto;
+    height: 35px;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main.forms {
+    background: whitesmoke;
+    width: 45%;
+    height: 552.4px;
+    padding: 20px 0 25px;
+    margin: 40px auto 0;
+    -webkit-box-shadow: 0px 15px 0px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 15px 0px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 15px 0px 10px rgba(0,0,0,0.75);
+}
+
+form.register {
+    border-right: 1px solid lightgray;
+}
+
+form.login {
+    margin-top: 100px;
+}
+
+hr{width: 44.9%; margin: 4px auto; position: relative;top: -30px;}
+
+#banner {
+    overflow: hidden;
+    background-image: url("/bilder/books.jpg");
+    min-height: fit-content;
+    padding: 30px 0;
+}
+
+#banner h1, #banner h2 {
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+}
+
+div.button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+a.button {
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    margin: 30px auto 10px;
+}
+
+#items {
+    margin: 0;
+    text-align: center;
+}
+
+div.item {
+    display: inline-block;
+    border: 2px solid lightgray;
+    padding: 20px;
+    margin: 4px;
+}
+
+.item img {
+    width: 200px;
+    height: 300px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+}
+
+.item p, .item h3 {
+    color: black;
+    max-width: 200px;
+}
+
+.item h3 {
+    margin: 12px 0 0 0;
+    height: 40px;
+}
+
+.item h2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4px 0;
+    background: rgb(218, 0, 0);
+    border-radius: 10px;
+    color: white;
+}
+
+.item a:hover {
+    text-decoration: black underline;
+}
+
+.item a.visa {
+    text-decoration: none;
+}
+
+#sell {
+    background: whitesmoke;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+main.bok {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.book {
+    width: 100%;
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.book img {
+    display: inline;
+}
+
+.book h2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.exemplar {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    background: rgb(177, 177, 177);
+    margin: 0;
+    padding: 0;
+}
+
+.exemplar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.exemplar ul li {
+    background: lightgray;
+    width: 96%;
+    margin: 0 2%;
+    border-bottom: 1px solid gray;
+}
+
+.exemplar ul:last-child {
+    margin: 0 0 10px;
+}
+
+.exemplar ul li p {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+a.sold {
+    text-decoration: underline black;
+}
